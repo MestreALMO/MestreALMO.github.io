@@ -1,0 +1,32 @@
+
+/* <stars> */
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.stars, .twinkling, .divPrincipal {
+    height: 400px;
+}
+
+.stars, .twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    display:block;
+}
+  
+.stars {
+    background:#000 url(../../img/entrace/stars.png) repeat top center;
+    z-index:0;
+}
+  
+.twinkling{
+    background:transparent url(../../img/entrace/twinkling.png) repeat top center;
+    z-index:1;
+
+    animation:move-twink-back 200s linear infinite;
+}
+/* </stars> */
