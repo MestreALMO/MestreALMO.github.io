@@ -38,7 +38,26 @@ h2:hover:after {
     width: 160px;
 }
 
-.indent {
+.indent { /*for <p></p>*/
     text-indent:3em;
     font-size: 20px;
 }
+
+/* <BallsSkill> */
+.cv .skills section {overflow:auto;margin-bottom:0;}
+.cv .skills section p {
+  float:left;
+  max-width:50%;
+  word-break:break-word;
+}
+.cv .skills section span {
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background:#bbb;
+  border-radius:15px;
+  float:right;
+  margin:0 1px;
+}
+.cv .skills section span.full {background: black;}
+/* </BallsSkill> */
