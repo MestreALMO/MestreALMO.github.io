@@ -1,4 +1,4 @@
-.section {
+.TitleA {
     color: #1D7FBE;
     font-weight: 800;
     font-size: 50px;
@@ -7,11 +7,28 @@
 	text-align: center;
 }
 
+.TitleB {
+    color: #EDEFF1;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.bg-A{
+    background-color: white;
+}
+
+.bg-B{
+    background-color: #007BE3;
+}
+
 h2:after {
     content: '';
     width: 100px;
     height: 3px;
-    background: #0168cd;
+    background: #C82333;
     display: block;
     margin: 15px auto;
     transition: all .2s ease-in-out;
@@ -21,7 +38,7 @@ h2:hover:after {
     width: 160px;
 }
 
-p {
+.indent {
     text-indent:3em;
     font-size: 20px;
 }

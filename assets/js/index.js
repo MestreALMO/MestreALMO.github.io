@@ -5,6 +5,8 @@ $(document).ready(function(){
         $("#navbar").load("navbar.html");
 
         $("#about").load("about.html");
+
+        $("#skills").load("skills.html");
     });
 });
 
