@@ -9,7 +9,7 @@
 
 h2:after {
     content: '';
-    width: 50px;
+    width: 100px;
     height: 3px;
     background: #40E0D0;
     display: block;
@@ -18,7 +18,7 @@ h2:after {
 }
 
 h2:hover:after {
-    width: 100px;
+    width: 160px;
 }
 
 p {
