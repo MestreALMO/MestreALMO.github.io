@@ -12,6 +12,10 @@ var arrLang = {
         "about.p02": "Since I was a kid I always dreamed about being a developer, making my own software. As the years gonne by, with me putting a lot of effort and time to make my dreams come true, I could make it true.",
         "about.p03": "Today here I am with my diploma, lot's of systems developed and my own web page to show my work.",
         "about.download": "Download Resume",
+
+        "skills.title": "Skills",
+        "skills.programming": "Programming",
+        "skills.others": "Others",
     },
     "portuguese": {
         "navbar.home": "Home",
@@ -26,6 +30,10 @@ var arrLang = {
         "about.p02": "Desde pequeno sempre sonhei em ser um desenvolvedor, fazendo meu próprio sistema. Com o passar do tempo, comigo colancando uma boa quantidade de esforço e tempo para tornar meu sonho realidade, Consegui fazer esse sonho uma realidade.",
         "about.p03": "Hoje aqui estou com meu diploma, vários sistemas desenvolvidos e meu próprio web site pra mostrar meu trabalho.",
         "about.download": "Baixar Currículo",
+
+        "skills.title": "Habilidades",
+        "skills.programming": "Programação",
+        "skills.others": "Outras",
     }
 };
 

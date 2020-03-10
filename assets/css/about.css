@@ -16,6 +16,10 @@
 	text-align: center;
 }
 
+.TitleC {
+	text-align: center;
+}
+
 .bg-A{
     background-color: white;
 }
@@ -46,18 +50,34 @@ h2:hover:after {
 /* <BallsSkill> */
 .cv .skills section {overflow:auto;margin-bottom:0;}
 .cv .skills section p {
-  float:left;
-  max-width:50%;
-  word-break:break-word;
+    float:left;
+    max-width:50%;
+    word-break:break-word;
 }
 .cv .skills section span {
-  display:inline-block;
-  width:15px;
-  height:15px;
-  background:#bbb;
-  border-radius:15px;
-  float:right;
-  margin:0 1px;
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:#bbb;
+    border-radius:15px;
+    float:right;
+    margin:0 1px;
 }
 .cv .skills section span.full {background: black;}
 /* </BallsSkill> */
+
+/*Skills*/
+.roundBorder {
+    border: 2px solid #6C757D;
+    border-radius: 8px;
+    background-color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    /* min-width: 250px; */
+    width: 100%;
+}
+.roundBorder:hover {
+    background-color: gray;
+}
