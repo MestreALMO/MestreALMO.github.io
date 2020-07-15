@@ -7,6 +7,8 @@ $(document).ready(function(){
         $("#about").load("about.html");
 
         $("#skills").load("skills.html");
+
+        $("#experience").load("experience.html");
     });
 });
 
