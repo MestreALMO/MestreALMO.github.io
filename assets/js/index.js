@@ -9,6 +9,8 @@ $(document).ready(function(){
         $("#skills").load("skills.html");
 
         $("#experience").load("experience.html");
+
+        $("#contact").load("contact.html");
     });
 });
 
