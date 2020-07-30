@@ -46,7 +46,7 @@ var arrLang = {
         "experience.UNP2Text": "I patcipated of the interity of the project Informática Cidadã (citizen computing), where I teached basic computing, Windows 10 and Microsoft Office to mostly disabled people, some were hearing impaired, some visual deficiency, among some others.",
         /** */
         "experience.GameVicioDate": "Around 2010",
-        "experience.GameVicioLocation": "At the time the site link was: <br>www.gamevicio.com.br",
+        "experience.GameVicioLocation": "At the time the site link was: www.gamevicio.com.br",
         "experience.GameVicioPosition": "Translator. Voluntier.",
         "experience.GameVicioText": "Voluteer work as a translator of games from english to portuguese of site gamevicio.com (between the games I helped traslate there was: Deux Ex and Fable 3). I participated in projects for a period around 2 years.",
 
@@ -98,7 +98,7 @@ var arrLang = {
         "experience.UNP2Text": "Eu participei do programa completo, o Informática Cidadã, onde eu ensinei: computação básica, Windows 10 e Microsoft Office para diversas pessoas, principalmente deficientes em alguma capacidade: alguns com deficiência auditiva, alguns com deficiência visual, e outras.",
         /** */
         "experience.GameVicioDate": "Em torno de 2010",
-        "experience.GameVicioLocation": "na época o link do site era: <br>www.gamevicio.com.br",
+        "experience.GameVicioLocation": "na época o link do site era: www.gamevicio.com.br",
         "experience.GameVicioPosition": "Tradutor. Voluntário.",
         "experience.GameVicioText": "Me vonluntariei em diversos projetos para trabalhar na tradução de jogos do inglês para o português do site gamevicio.com (alguns dos jogos que ajudei na tradução foram: Deux Ex e Fable 3). Eu participei em diversos projetos de tradução no período aproximadamente de 2 anos.",
     }
