@@ -18,3 +18,9 @@ $(document).ready(function(){
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
 });
+
+// update footer copyright year
+var today = new Date();
+var year = today.getFullYear();
+var copyright = document.getElementById("copyright");
+copyright.innerHTML = '© André Lusegardis '+ year;
