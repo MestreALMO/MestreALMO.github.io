@@ -2,9 +2,8 @@ var arrLang = {
     "english": {
         "navbar.home": "Home",
         "navbar.about": "About",
-        "navbar.services": "Services",
-        "navbar.portfolio": "Portfolio",
-        "navbar.client": "Clients",
+        "navbar.skills": "Skills",
+        "navbar.experience": "Experience",
         "navbar.contact": "Contact",
 
         "about.title": "About",
@@ -55,9 +54,8 @@ var arrLang = {
     "portuguese": {
         "navbar.home": "Home",
         "navbar.about": "Sobre",
-        "navbar.services": "Serviços",
-        "navbar.portfolio": "Portfólio",
-        "navbar.client": "Cliente",
+        "navbar.skills": "Habilidades",
+        "navbar.experience": "Experiências",
         "navbar.contact": "Contato",
 
         "about.title": "Sobre",
