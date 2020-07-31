@@ -12,15 +12,15 @@ $(document).ready(function(){
 
         $("#contact").load("contact.html");
     });
+
+    // update footer copyright year
+    var today = new Date();
+    var year = today.getFullYear();
+    var copyright = document.getElementById("copyright");
+    $("#copyright").html("© André Lusegardis " + year);
 });
 
 //Stop random scroll on reload
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
 });
-
-// update footer copyright year
-var today = new Date();
-var year = today.getFullYear();
-var copyright = document.getElementById("copyright");
-copyright.innerHTML = '© André Lusegardis '+ year;

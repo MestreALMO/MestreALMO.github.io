@@ -50,6 +50,7 @@ var arrLang = {
         "experience.GameVicioPosition": "Translator. Voluntier.",
         "experience.GameVicioText": "Voluteer work as a translator of games from english to portuguese of site gamevicio.com (between the games I helped traslate there was: Deux Ex and Fable 3). I participated in projects for a period around 2 years.",
 
+        "contact.title": "Contact",
     },
     "portuguese": {
         "navbar.home": "Home",
@@ -101,6 +102,8 @@ var arrLang = {
         "experience.GameVicioLocation": "na época o link do site era: www.gamevicio.com.br",
         "experience.GameVicioPosition": "Tradutor. Voluntário.",
         "experience.GameVicioText": "Me vonluntariei em diversos projetos para trabalhar na tradução de jogos do inglês para o português do site gamevicio.com (alguns dos jogos que ajudei na tradução foram: Deux Ex e Fable 3). Eu participei em diversos projetos de tradução no período aproximadamente de 2 anos.",
+
+        "contact.title": "Contato",
     }
 };
 
