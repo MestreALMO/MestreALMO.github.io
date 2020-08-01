@@ -1,3 +1,10 @@
+.aboutCarouselSize{
+    height: 600px;
+}
+.aboutCarousel{
+    height: 100%;
+}
+
 .TitleA {
     color: #1D7FBE;
     font-weight: 800;
