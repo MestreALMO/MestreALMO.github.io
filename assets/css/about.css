@@ -6,7 +6,7 @@
 }
 
 .TitleA {
-    color: #1D7FBE;
+    color: #0064b6;
     font-weight: 800;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +15,7 @@
 }
 
 .TitleB {
-    color: #EDEFF1;
+    color: rgb(0, 0, 0);
     font-weight: 800;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -28,11 +28,14 @@
 }
 
 .bg-A{
-    background-color: white;
+    background-color: rgb(33, 33, 33);
+}
+.bg-ATextColor{
+    color: rgb(255, 255, 255);
 }
 
 .bg-B{
-    background-color: #007BE3;
+    background-color: #003561;
 }
 
 h2:after {
@@ -52,39 +55,4 @@ h2:hover:after {
 .indent { /*for <p></p>*/
     text-indent:3em;
     font-size: 20px;
-}
-
-/* <BallsSkill> */
-.cv .skills section {overflow:auto;margin-bottom:0;}
-.cv .skills section p {
-    float:left;
-    max-width:50%;
-    word-break:break-word;
-}
-.cv .skills section span {
-    display:inline-block;
-    width:15px;
-    height:15px;
-    background:#bbb;
-    border-radius:15px;
-    float:right;
-    margin:0 1px;
-}
-.cv .skills section span.full {background: black;}
-/* </BallsSkill> */
-
-/*Skills*/
-.roundBorder {
-    border: 2px solid #6C757D;
-    border-radius: 8px;
-    background-color: white;
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 0px;
-    /* min-width: 250px; */
-    width: 100%;
-}
-.roundBorder:hover {
-    background-color: gray;
 }

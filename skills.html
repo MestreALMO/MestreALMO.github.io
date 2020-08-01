@@ -1,4 +1,41 @@
-<div id="skillsMain" class="bg-B">
+<style>
+  /* <BallsSkill> */
+  .cv .skills section {overflow:auto;margin-bottom:0;}
+  .cv .skills section p {
+      float:left;
+      max-width:50%;
+      word-break:break-word;
+  }
+  .cv .skills section span {
+      display:inline-block;
+      width:15px;
+      height:15px;
+      background: rgb(122, 122, 122);
+      border-radius:15px;
+      float:right;
+      margin:0 1px;
+  }
+  .cv .skills section span.full {
+    background:rgb(255, 255, 255);
+  }
+  /* </BallsSkill> */
+  
+  .roundBorder {
+      border: 2px solid #647c91;
+      border-radius: 8px;
+      padding-top: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-bottom: 0px;
+      /* min-width: 250px; */
+      width: 100%;
+  }
+  .roundBorder:hover {
+      background-color: rgb(0, 1, 66);
+  }
+</style>
+
+<div id="skillsMain" class="bg-B bg-ATextColor">
   <br><br>
   <h2 class="col-lg-12 TitleB lang" id="skills.title">
       Skills
@@ -9,7 +46,7 @@
   <div class="cv container-fluid mx-0 px-5">
     <div class="row skills col-md-12 mx-0 px-4 py-4">
       <div class="col-lg-4 mx-0 my-0">
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>PHP</p>
           <span class="full"></span>
           <span class="full"></span>
@@ -17,7 +54,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>HTML</p>
           <span class="full"></span>
           <span class="full"></span>
@@ -25,7 +62,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>MySQL</p>
           <span></span>
           <span></span>
@@ -33,7 +70,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>CSS</p>
           <span class="full"></span>
           <span class="full"></span>
@@ -41,7 +78,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>Bootstrap</p>
           <span class="full"></span>
           <span class="full"></span>
@@ -49,7 +86,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>JavaScript</p>
           <span class=""></span>
           <span class=""></span>
@@ -59,15 +96,15 @@
         </section>
       </div>
       <div class="col-lg-4">
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>JQuery</p>
           <span class=""></span>
-          <span class=""></span>
+          <span class="full"></span>
           <span class="full"></span>
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>Adianti</p>
           <span class=""></span>
           <span class=""></span>
@@ -75,7 +112,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>Highcharts</p>
           <span></span>
           <span></span>
@@ -83,7 +120,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>TortoiseSVN</p>
           <span></span>
           <span class=""></span>
@@ -91,7 +128,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>C++</p>
           <span class=""></span>
           <span class=""></span>
@@ -99,7 +136,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p>C#</p>
           <span></span>
           <span></span>
@@ -109,7 +146,7 @@
         </section>
       </div>
       <div class="col-lg-4">
-        <section class="roundBorder mb-1">            
+        <section class="roundBorder mb-1 bg-A">            
           <p>Java</p>
           <span class=""></span>
           <span class=""></span>
@@ -117,7 +154,7 @@
           <span class=""></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">          
+        <section class="roundBorder mb-1 bg-A">          
           <p>GitHub</p>
           <span></span>
           <span class="full"></span>
@@ -125,7 +162,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">        
+        <section class="roundBorder mb-1 bg-A">        
           <p>CodePen</p>
           <span></span>
           <span></span>
@@ -133,7 +170,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">        
+        <section class="roundBorder mb-1 bg-A">        
           <p>StackOverFlow</p>
           <span class=""></span>
           <span class=""></span>
@@ -141,7 +178,7 @@
           <span class="full"></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">          
+        <section class="roundBorder mb-1 bg-A">          
           <p>Phaser</p>
           <span></span>
           <span></span>
@@ -149,7 +186,7 @@
           <span class=""></span>
           <span class="full"></span>
         </section>
-        <section class="roundBorder mb-1">            
+        <section class="roundBorder mb-1 bg-A">            
           <p>Ajax</p>
           <span></span>
           <span></span>
@@ -169,7 +206,7 @@
   <div class="cv container-fluid mx-0 px-5">
     <div class="row skills col-md-12 mx-0 px-4 py-4">
       <div class="col-lg-4 mx-0 my-0">
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p class="lang" id="skills.english">English</p>
           <span class="full"></span>
           <span class="full"></span>
@@ -179,7 +216,7 @@
         </section>
       </div>
       <div class="col-lg-4">
-        <section class="roundBorder mb-1">
+        <section class="roundBorder mb-1 bg-A">
           <p class="lang" id="skills.portuguese">Portuguese</p>
           <span class="full"></span>
           <span class="full"></span>
